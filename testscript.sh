@@ -9,7 +9,7 @@
 # command to your project's setup commands:
 # \curl -sSL https://raw.githubusercontent.com/codeship/scripts/master/packages/freetds.sh | bash -s
 #
-FREETDS_VERSION=${FREETDS_VERSION:="1.1.17"}
+FREETDS_VERSION=${FREETDS_VERSION:="1.1.16"}
 TDS_DIR=${TDS_DIR:=$HOME/cache/freetds}
 
 set -e
